@@ -21,7 +21,7 @@ export const changeSearchPhrase = (payload) => ({
   payload,
   type: CHANGE_PHRASE,
 });
-export const addTag = (payload) => ({ payload, type: ADD_TAG });
+export const addTag = payload => ({ payload, type: ADD_TAG });
 export const removeTag = payload => ({ payload, type: REMOVE_TAG });
 export const createAction_changeDuration = payload => ({ payload, type: CHANGE_DURATION });
 
@@ -37,7 +37,7 @@ export default function reducer(statePart = [], action = {}) {
     case ADD_TAG:
       return {
         ...statePart,
-        addedTag: action.payload,
+        tags: action.payload,
       };
     case REMOVE_TAG:
       return {
