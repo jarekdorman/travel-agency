@@ -1,1 +1,18 @@
 @import '../../../styles/settings.scss';
+
+.component {
+    background: $color-dark;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 30px;
+    color: $color-light;
+  }
+
+  button {
+    background: $color-primary;
+    border: none;
+    color: $color-light;
+    width: 204px;
+    padding: 15px;
+    font-size: 21px;
+  }
