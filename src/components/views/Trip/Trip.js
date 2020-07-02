@@ -11,7 +11,7 @@ import DetailsImage from '../../common/DetailsImage/DetailsImage';
 import List from '../../common/List/List';
 import ListItem from '../../common/ListItem/ListItem';
 
-import OrderForm from '../../features/OrderForm/OrderForm';
+import OrderForm from '../../features/OrderForm/OrderFormContainer';
 
 import styles from './Trip.scss';
 import { Grid, Row, Col } from 'react-flexbox-grid';
