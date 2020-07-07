@@ -2,14 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './OrderOption.scss';
 
-const OrderOptionText = ({ currentValue, placeholder, type, setOptionValue }) => (
+const OrderOptionText = ({
+  currentValue,
+  placeholder,
+  type,
+  setOptionValue,
+}) => (
   <div>
     <input
       className={styles.input}
       type={type}
       placeholder={placeholder}
       value={currentValue}
-      onChange={event => setOptionValue(event.currentTarget.value)}
+      onChange={(event) => setOptionValue(event.currentTarget.value)}
     />
   </div>
 );
