@@ -1,0 +1,71 @@
+{
+  "orders": [
+    {
+      "car-rental": "suv",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "sds",
+      "contact": "sds",
+      "start-date": "",
+      "totalCost": "$51,581",
+      "id": 1
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [],
+      "adults": "5",
+      "children": "2",
+      "name": "Jaroslaw Dorman",
+      "contact": "646-733-6872",
+      "start-date": "",
+      "totalCost": "$316,084",
+      "id": 2
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": "3",
+      "children": "1",
+      "name": "jaroslaw dorman",
+      "contact": "6467336872",
+      "start-date": "",
+      "totalCost": "$185,083",
+      "id": 3
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "jarek",
+      "contact": "4547338292",
+      "start-date": "",
+      "totalCost": "$51,481",
+      "id": 4
+    },
+    {
+      "country": "Turkey",
+      "tripId": "5cc1d10130dfa407e2e54e20",
+      "countryCode": "TUR",
+      "car-rental": "full",
+      "accommodation": "hotel",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": 1,
+      "children": 0,
+      "name": "jarek",
+      "contact": "6467336872",
+      "start-date": "",
+      "totalCost": "$51,681",
+      "id": 5
+    }
+  ]
+}
