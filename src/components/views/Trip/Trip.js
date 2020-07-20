@@ -16,6 +16,9 @@ import OrderForm from '../../features/OrderForm/OrderFormContainer';
 import styles from './Trip.scss';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
+import { discountPrice } from '../../../utils/discountPrice';
+import { formatPrice } from '../../../utils/formatPrice';
+
 
 
 const Trip = ({
@@ -49,8 +52,9 @@ const Trip = ({
                     title={`<strong>Duration:</strong> ${days} days`}
                     icon="calendar-alt"
                   />
+                  <ListItem title={`<strong>Price:</strong> from ${formatPrice(discountPrice(cost, 20))}`} icon='money-bill-wave' />
                   <ListItem
-                    title={`<strong>Price:</strong> from ${cost}`}
+                    title={`Standart price: from ${cost}`}
                     icon="money-bill-wave"
                   />
                 </List>
