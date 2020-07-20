@@ -66,6 +66,21 @@
       "start-date": "",
       "totalCost": "$51,681",
       "id": 5
+    },
+    {
+      "country": "Timor-Leste",
+      "tripId": "5cc1d1014c75f672e46ef6d7",
+      "countryCode": "TLS",
+      "car-rental": "suv",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": "3",
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$418,795",
+      "id": 6
     }
   ]
 }
